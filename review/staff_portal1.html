@@ -12,12 +12,42 @@
 <body>
     <header class="bg-success" style="position: fixed; width: 100%; z-index: 1;">
         <div class="row text-white">
-            <div class="col-md-6 col-9 p-4 pl-5">
+            <div class="col-md-4 col-6 p-4 pl-5">
                 <a href="#sign_in-section" style="text-decoration: none; color: aliceblue;">
                     <h1><i>Staff Portal</i></h1>
                 </a>
             </div>
-            <div class="col-md-6 col-3 my-auto">
+            <div class="col-md-0">
+                <div class="dropdown">
+                    <a class="btn btn-primary dropdown-toggle mt-4" href="#" role="button" id="dropdownMenuLink"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         Role
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Faculty</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Staff Advisor</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-3">
+                <div class="dropdown">
+                    <a class="btn btn-primary dropdown-toggle mt-4" href="#" role="button" id="dropdownMenuLink"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         View
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Student Details</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Marks</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Attendance</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-3 my-auto">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -38,70 +68,74 @@
             </div>
         </div>
     </header>
-    <section id="sign_in-section" style="padding-top: 12em;">
+    <section id="sign_in-section" style="padding-top: 13em;">
         <div class="container">
-            <div><h1 class="text-center">STUDENT DETAILS</h1></div><hr>
+            <div>
+                <h1 class="text-center">STUDENT DETAILS</h1>
+            </div>
+            <hr>
             <div class="row m-5">
                 <form>
                     <div class="row">
-                      <div class="col">
-                        <label><i>SEARCH :</i></label>
-                      </div>
-                      <div class="col">
-                        <input type="text"  style="border-width: 5px solid; border-radius: 6px;" placeholder="Students">
-                      </div>
+                        <div class="col">
+                            <label><i>SEARCH :</i></label>
+                        </div>
+                        <div class="col">
+                            <input type="text" style="border-width: 5px solid; border-radius: 6px;"
+                                placeholder="Students">
+                        </div>
                     </div>
-                  </form>
+                </form>
             </div>
             <div class="row">
                 <div class="col-md-9 col-12">
                     <div class="table">
                         <table class="table table-bordered">
                             <thead class="thead-dark">
-                              <tr>
-                                <th scope="col">ROLL NO</th>
-                                <th scope="col">NAME</th>
-                                <th scope="col">DEPT</th>
-                                <th scope="col">SEM</th>
-                              </tr>
+                                <tr>
+                                    <th scope="col">ROLL NO</th>
+                                    <th scope="col">NAME</th>
+                                    <th scope="col">DEPT</th>
+                                    <th scope="col">SEM</th>
+                                </tr>
                             </thead>
                             <tbody>
-                              <tr>
-                                <th scope="row">24</th>
-                                <td>CICIL VARGHESE</td>
-                                <td>CSE</td>
-                                <td>S6</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">12</th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                              </tr>
-                              <tr>
-                                <th scope="row">27</th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                              </tr>
-                              <tr>
-                                <th scope="row">40</th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                              </tr>
-                              <tr>
-                                <th scope="row">25</th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                              </tr>
+                                <tr>
+                                    <th scope="row">24</th>
+                                    <td>CICIL VARGHESE</td>
+                                    <td>CSE</td>
+                                    <td>S6</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">12</th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">27</th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">40</th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">25</th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
                             </tbody>
-                          </table>
+                        </table>
                     </div>
                 </div>
             </div>
-              
+
         </div>
     </section>
     <footer class="bg-success" style="height: 10rem;">
