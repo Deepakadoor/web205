@@ -21,3 +21,4 @@ Staff Advisor poortal3
 
 # Latest added files
 Admin portal2
+Faculty portal2
