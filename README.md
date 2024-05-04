@@ -13,11 +13,11 @@ Admin portal1
 
 Faculty portal1
 
-Staff Advisor poortal1
+Staff Advisor portal1
 
-Staff Advisor poortal2
+Staff Advisor portal2
 
-Staff Advisor poortal3
+Staff Advisor portal3
 
 # Latest added files
 Admin portal2
@@ -26,4 +26,4 @@ Admin portal3
 
 Faculty portal2
 
-Staff Advisor poortal4
+Staff Advisor portal4
