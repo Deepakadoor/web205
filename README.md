@@ -1,6 +1,7 @@
 # web205
 Designs uploaded in this repository
 
+#LOGIN
 Login
 
 Staff Login
@@ -8,6 +9,8 @@ Staff Login
 Admin Login
 
 Faculty Login
+
+#PORTALS
 
 Admin portal1
 
